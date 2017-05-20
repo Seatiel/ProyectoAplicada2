@@ -151,6 +151,7 @@
     <Compile Include="BLL\MedicinasBLL.cs" />
     <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MedicinasController.cs" />
     <Compile Include="DAL\WebFarmaciaDb.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -214,6 +215,11 @@
     <Content Include="Views\Clientes\Details.cshtml" />
     <Content Include="Views\Clientes\Edit.cshtml" />
     <Content Include="Views\Clientes\Index.cshtml" />
+    <Content Include="Views\Medicinas\Create.cshtml" />
+    <Content Include="Views\Medicinas\Delete.cshtml" />
+    <Content Include="Views\Medicinas\Details.cshtml" />
+    <Content Include="Views\Medicinas\Edit.cshtml" />
+    <Content Include="Views\Medicinas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
