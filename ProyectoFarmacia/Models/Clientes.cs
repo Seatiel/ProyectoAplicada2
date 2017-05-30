@@ -23,6 +23,7 @@ namespace ProyectoFarmacia.Models
         public string Direccion { get; set; }
 
         [Required]
+        [StringLength(15)]
         [DataType(DataType.PhoneNumber)]
         [DisplayFormat(DataFormatString = "{0:999-999-9999}", ApplyFormatInEditMode = true)]
         public string Telefono { get; set; }
@@ -32,7 +33,6 @@ namespace ProyectoFarmacia.Models
         [DisplayFormat(DataFormatString = "{0:yyyy - mm - dd}", ApplyFormatInEditMode = true)]
         public DateTime FechaCreacion { get; set; }
 
-        //[DataType(DataType.EmailAddress)]
         [StringLength(100)]
         [RegularExpression("^([a-zA-Z0-9.&'_.&'@]+)$", ErrorMessage = "Caracteres invalidos")]
         [Required(ErrorMessage = "Debe ingresar ingresar el Email.")]
