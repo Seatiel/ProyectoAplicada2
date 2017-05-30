@@ -13,5 +13,6 @@ namespace ProyectoFarmacia.DAL
 
         }
         public DbSet<Models.Clientes> Cliente { get; set; }
+        public DbSet<Models.Medicinas> Medicina { get; set; }
     }
 }
